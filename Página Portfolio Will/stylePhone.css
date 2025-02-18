@@ -39,7 +39,7 @@
     }
 
     .hero h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .hero p {
@@ -70,7 +70,7 @@
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hero-content {
@@ -91,7 +91,7 @@
     }
 
     .aboutTittle {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .projects {
@@ -103,7 +103,7 @@
     }
 
     .projectsTittle {
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
     }
 
