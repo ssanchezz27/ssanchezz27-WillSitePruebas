@@ -1,0 +1,147 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .menu-toggle .bar {
+        height: 3px;
+        width: 25px;
+        background-color: white;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .hero-content{
+        margin-top: 2rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        padding-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero-video video {
+        max-height: 40rem;
+    }
+
+    .blur {
+        filter: blur(4px);
+        transition: filter 0.3s;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    .hero {
+        padding: 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content {
+        border-radius: 0;
+        margin-top: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero-video video {
+        max-height: 40rem;
+    }
+
+    .hero-text {
+        text-align: center;       
+    }
+
+    .aboutTittle {
+        margin-top: 3rem;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .projects h2 {
+        padding: 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .contact h2 {
+        order: 1;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 4.5rem;
+    }
+
+    .contact form {
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+
+    .contact input, .contact textarea {
+        width: 90%;
+    }
+
+    button {
+       display: block;
+       margin: 0 auto;
+       margin-top: 2rem;
+       height: 4rem;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
