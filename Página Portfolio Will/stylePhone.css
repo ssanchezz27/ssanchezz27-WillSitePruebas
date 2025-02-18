@@ -112,7 +112,6 @@
         font-size: 1.2rem;
     }    
     .contact {
-        flex-direction: column;
         align-items: center;
         padding: 2rem;
     }
