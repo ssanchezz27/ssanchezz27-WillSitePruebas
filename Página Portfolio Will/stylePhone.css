@@ -70,7 +70,7 @@
     }
 
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .hero-content {
@@ -148,7 +148,7 @@
     }
 
     .social-media img {
-        max-width: 50%;
+        max-width: 3rem;
         height: auto;
     }
 
