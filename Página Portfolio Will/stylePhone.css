@@ -47,7 +47,7 @@
     }
 
     .hero-video video {
-        max-height: 40rem;
+        max-height: 30rem;
     }
 
     .blur {
@@ -102,13 +102,14 @@
         padding: 0;
     }
 
-    .projects h2 {
-        padding: 0;
+    .projectsTittle {
         font-size: 3rem;
         text-align: center;
     }
 
-    
+    .about p {
+        font-size: 1.2rem;
+    }    
     .contact {
         flex-direction: column;
         align-items: center;
@@ -119,7 +120,7 @@
         order: 1;
         text-align: center;
         margin-bottom: 2rem;
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     .contact form {
